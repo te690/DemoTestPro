@@ -22,6 +22,10 @@ namespace DemoTestPro.Controllers
         {
             _logger = logger;
         }
+        public HomeController(ILogger<HomeController> logger , int l)
+        {
+            _logger = logger;
+        }
 
         public IActionResult Index()
         {
