@@ -15,7 +15,10 @@ namespace DemoTestPro.Controllers
 
 
 
-
+        public HomeController(ILogger<HomeController> logger, int l,String p)
+        {
+            _logger = logger;
+        }
 
 
         public HomeController(ILogger<HomeController> logger)
